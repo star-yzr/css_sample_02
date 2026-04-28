@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* =================================================
+   1. 色と背景の設定
+   ================================================= */
+.section-color {
+    background-color: #EEEEEE; /* セクション全体の背景色（薄いグレー） */
+    background-image: url("images/bg.jpg"); /* 背景画像がある場合 */
+    background-size: cover;
+    padding: 20px;
+}
+
+.color-box {
+    color: #ffffff;            /* 文字色：白 */
+    background-color: #007bff; /* 背景色：青 */
+}
+/* =================================================
+   2. テキスト・フォントの設定
+   ================================================= */
+.text-custom {
+    font-family: "WDXL Lubrifont JP N", sans-serif;
+    font-size: 16px;           /* 文字サイズ */
+    font-weight: bold;         /* 太字 */
+    line-height: 1.8;          /* 行間 */
+    letter-spacing: 0.05em;    /* 字間：ほんの少し広げる */
+    color: #333333;            /* 文字色：真っ黒を避ける */
+    text-align: justify;       /* 両端揃え */
+}
+/* =================================================
+   3. リストの設定
+   ================================================= */
+.custom-list {
+    list-style: none;          /* デフォルトの「●」を消す */
+    padding-left: 0;           /* 左側の余白をリセット */
+}
+
+.custom-list li {
+    border-bottom: 1px solid #ccc; /* 下線をつける */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
